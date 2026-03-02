@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(8, 36, 21);
+    margin:10%;
+}
+
+section {
+    color: rgb(1, 8, 16);
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(114, 154, 152, 0.7);
+    margin-top: 20px;
+    margin-left: 615px;
+    line-height: 45px;
+    border-radius: 5px;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px 25px rgb(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+label {
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+}
+
+input {
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    margin-left: 80px;
+    border-radius: 5px;
+}
